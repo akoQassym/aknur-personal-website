@@ -256,6 +256,18 @@ export default function Home() {
           />
         </Box>
       </Box>
+      <Box mb={'100px'}>
+        <Text align="center" fontSize={'sm'}>
+          @ 2023 Built with{' '}
+          <Link href="https://nextjs.org/" isExternal>
+            Next JS
+          </Link>{' '}
+          | Design created by{' '}
+          <Link href="https://github.com/maximebonhomme" isExternal>
+            maximebonhomme{' '}
+          </Link>
+        </Text>
+      </Box>
     </>
   );
 }
