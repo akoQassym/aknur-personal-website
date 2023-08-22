@@ -19,6 +19,8 @@ export const Header = () => {
       as="header"
       alignItems="center"
       justifyContent="space-between"
+      bg={'black'}
+      zIndex={100}
     >
       <Image src="logo.svg" alt="Aknur" boxSize="50px" />
       <Box

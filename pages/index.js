@@ -6,7 +6,6 @@ import {
   GridItem,
   Image,
   Stack,
-  Highlight,
 } from '@chakra-ui/react';
 import Head from 'next/head';
 import { Grid } from '../components/Grid';
@@ -23,23 +22,34 @@ export default function Home() {
       <Box py="115px" px={4} maxWidth={700} mx="auto">
         <Grid
           fluid
-          templateColumns="repeat(4, 1fr)"
+          templateColumns={{ base: 'repeat(1, 1fr)', lg: 'repeat(4, 1fr)' }}
           mb={10}
           alignItems="center"
         >
-          <GridItem colSpan={1}>
+          <GridItem colSpan={{ base: 3, lg: 1 }}>
             <Avatar />
           </GridItem>
           <GridItem colSpan={3}>
             <Box>
               <Heading as="h1" size="lg">
-                Hello👋, I&apos;m Aknur
+                <Text align={{ base: 'center', lg: 'left' }}>
+                  Hello👋, I&apos;m Aknur
+                </Text>
               </Heading>
               <Box my={2}>
-                <Text>Junior at New York University 🗽</Text>
-                <Text>Product-oriented FullStack Developer 💻</Text>
+                <Text align={{ base: 'center', lg: 'left' }}>
+                  Junior at New York University 🗽
+                </Text>
+                <Text align={{ base: 'center', lg: 'left' }}>
+                  Product-oriented FullStack Developer 💻
+                </Text>
               </Box>
-              <Box display="flex" alignItems="center" ml={-1}>
+              <Box
+                display="flex"
+                alignItems="center"
+                justifyContent={{ base: 'center', lg: 'flex-start' }}
+                ml={-1}
+              >
                 <Box mr={2}>
                   <Link
                     color="white"
@@ -103,16 +113,10 @@ export default function Home() {
               <Text as="i">
                 <Text as="b">international student from Kazakhstan</Text>
               </Text>
-              ,{' '}
-              <Highlight
-                query={[
-                  'Computer Science and Applied Mathematics at New Your University',
-                ]}
-                styles={{ bg: 'purple.100' }}
-              >
-                studying Computer Science and Applied Mathematics at New Your
-                University
-              </Highlight>
+              , studying{' '}
+              <Text as="mark">
+                Computer Science and Applied Mathematics at New Your University
+              </Text>
               . Alongside my passion for Software Engineering and Machine
               Learning, I am deeply interested in the startup world: building
               dynamic, highly scalable and creative products, which solve

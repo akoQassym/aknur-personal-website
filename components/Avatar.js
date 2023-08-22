@@ -30,10 +30,11 @@ export const Avatar = () => {
       >
         <Flex alignItems="center" justifyContent="center" position="relative">
           <Image
-            borderRadius="full"
-            width={{ base: '80%', lg: 'full' }}
+            borderRadius="50%"
+            width={{ base: '50%', md: '30%', lg: 'full' }}
             src="avatar.jpeg"
             alt="Aknur"
+            boxShadow="rgba(240, 130, 250, 0.35) 0px 5px 15px"
           />
         </Flex>
       </Box>
