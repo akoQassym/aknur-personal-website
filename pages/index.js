@@ -33,7 +33,7 @@ export default function Home() {
           <GridItem colSpan={3}>
             <Box>
               <Heading as="h1" size="lg">
-                Hello👋, I'm Aknur
+                Hello👋, I&apos;m Aknur
               </Heading>
               <Box my={2}>
                 <Text>Junior at New York University 🗽</Text>
@@ -98,7 +98,7 @@ export default function Home() {
           </Heading>
           <Stack spacing={3}>
             <Text>
-              Welcome to my page, I'm delighted to see you here! My name is
+              Welcome to my page, I&apos;m delighted to see you here! My name is
               Aknur Kassym, and I am an{' '}
               <Text as="i">
                 <Text as="b">international student from Kazakhstan</Text>
