@@ -21,3 +21,7 @@ a:hover {
 * {
   box-sizing: border-box;
 }
+
+mark {
+  background-color: #cda8ef;
+}
