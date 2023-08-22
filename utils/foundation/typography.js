@@ -26,7 +26,7 @@ export const typography = {
   },
 
   fontSizes: {
-    sm: clamp(14, 14),
+    sm: clamp(16, 16),
     md: clamp(18, 18),
     lg: clamp(22, 24, 'xs', 'sm'),
   },
