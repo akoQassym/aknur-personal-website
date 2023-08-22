@@ -36,7 +36,12 @@ export const Experience = ({
           />
         )}
       </Heading>
-      {desc?.length && desc.map((text) => <Text my={2}>{text}</Text>)}
+      {desc?.length &&
+        desc.map((text, key) => (
+          <Text key={key} my={2}>
+            {text}
+          </Text>
+        ))}
       {stack && (
         <Text color="white" opacity={0.5}>
           {stack}
