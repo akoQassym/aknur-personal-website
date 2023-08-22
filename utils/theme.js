@@ -1,6 +1,5 @@
 import { extendTheme } from '@chakra-ui/react';
 import { foundations } from './foundation';
-import { breakpoints } from './foundation/breakpoints';
 
 const config = {
   cssVarPrefix: 'aknur',
@@ -9,7 +8,6 @@ const config = {
 export const theme = extendTheme({
   config,
   ...foundations,
-  ...breakpoints,
   styles: {
     global: {
       'html, body': {
