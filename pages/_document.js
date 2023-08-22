@@ -34,7 +34,7 @@ export default function Document() {
         <meta name="og:url" content="https://aknur-website.vercel.app/" />
         <meta name="og:site_name" content="Aknur" />
         <meta name="og:type" content="website" />
-        <link rel="icon" href="/logo.svg" />
+        <link rel="icon" href="logo.svg" />
       </Head>
       <body>
         <Main />

@@ -50,7 +50,7 @@ export default function Home() {
                     <Image
                       boxSize="35px"
                       mb={4}
-                      src={'/linkedin.svg'}
+                      src={'linkedin.svg'}
                       alt={'Linkedin'}
                       objectFit="cover"
                     />
@@ -66,7 +66,7 @@ export default function Home() {
                     <Image
                       boxSize="30px"
                       mb={4}
-                      src={'/github.svg'}
+                      src={'github.svg'}
                       alt={'Github'}
                       objectFit="cover"
                     />
@@ -82,7 +82,7 @@ export default function Home() {
                     <Image
                       boxSize="30px"
                       mb={4}
-                      src={'/gmail.svg'}
+                      src={'gmail.svg'}
                       alt={'Gmail'}
                       objectFit="cover"
                     />
@@ -190,7 +190,7 @@ export default function Home() {
 
           <Experience
             href="https://github.com/akoQassym/shopy-mobile"
-            image="/shopy-logo.png"
+            image="shopy-logo.png"
             side="2023"
             title="Shopy Mobile App"
             desc={[
@@ -200,7 +200,7 @@ export default function Home() {
           />
           <Experience
             href="https://github.com/akoQassym/spotify-group-player"
-            image="/spotify.svg"
+            image="spotify.svg"
             side="2021"
             title="Spotify Group Player"
             desc={[

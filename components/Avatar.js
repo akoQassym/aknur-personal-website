@@ -32,7 +32,7 @@ export const Avatar = () => {
           <Image
             borderRadius="full"
             width={{ base: '80%', lg: 'full' }}
-            src="/avatar.jpeg"
+            src="avatar.jpeg"
             alt="Aknur"
           />
         </Flex>

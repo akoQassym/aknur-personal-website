@@ -20,7 +20,7 @@ export const Header = () => {
       alignItems="center"
       justifyContent="space-between"
     >
-      <Image src="/logo.svg" alt="Aknur" boxSize="50px" />
+      <Image src="logo.svg" alt="Aknur" boxSize="50px" />
       <Box
         height="24px"
         position="relative"
